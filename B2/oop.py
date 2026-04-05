@@ -10,7 +10,7 @@ class VatNuoi:
         self.__mauSac = mauSac
         self.__tuoi = tuoi
         self.__canNang = canNang
-        
+      
     def __str__(self) -> str:
         return f"VatNuoi: {self.__giong}, {self.__mauSac}, {self.__tuoi}, {self.__canNang}"
         
